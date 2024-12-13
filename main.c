@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 void unosniza(int niz[], int *n) {
     printf("Unesite broj elemenata: ");
     scanf("%d",n);
