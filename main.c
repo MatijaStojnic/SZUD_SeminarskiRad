@@ -8,7 +8,6 @@ void unosniza(int niz[], int *n) {
         scanf("%d", &niz[i]);
     }
 }
-
 void ispisniza(int niz[], int n) {
     printf("\nIspis: ");
     for(int i=0;i<n;i++) {
@@ -16,7 +15,6 @@ void ispisniza(int niz[], int n) {
     }
     printf("\n");
 }
-
 void max_min_prosek(int niz[], int n) {
     int max=niz[0];
     int min=0;
@@ -33,7 +31,6 @@ void max_min_prosek(int niz[], int n) {
     float prosek=(float)suma/n;
     printf("\nNajveci element je %d, najmanji %d, a prosek niza %.2f\n",max,min,prosek);
 }
-
 void sortiranje(int niz[],int n) {
     printf("Sortirani niz: ");
     for(int i=0;i<n;i++) {
@@ -49,7 +46,6 @@ void sortiranje(int niz[],int n) {
         printf("%d ",niz[i]);
     }
 }
-
 void brojanjePonavljanja(int niz[], int n) {
     int brojac=0,element=0;
     printf("\n\nUnesite broj koji zelite da prebrojite u nizu: ");
@@ -61,7 +57,6 @@ void brojanjePonavljanja(int niz[], int n) {
     }
     printf("Broj ponavljanja broja %d u nizu je: %d\n", element, brojac);
 }
-
 int main() {
     int niz[50],n;
     printf("=================================\n");
