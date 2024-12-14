@@ -60,7 +60,7 @@ void brojanjePonavljanja(int niz[], int n) {
 int main() {
     int niz[50],n;
     printf("=================================\n");
-    printf("Pocetna verzija projekta.\n");
+    printf("Konacna verzija programa sa svim funkcionalnostima!\n");
     printf("=================================\n");
     unosniza(niz,&n);
     ispisniza(niz,n);
